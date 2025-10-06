@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+    <body>
+        <p id = "text">Light-weight process are threads
+             in the user space that acts as an
+              interface for the ULT to access 
+              the physical CPU resources.
+               Thread library schedules which 
+               thread of a process to run on which
+                LWP and how long. The number of LWPs 
+                created by the thread library depends 
+                on the type of application. 
+                In the case of an I/O bound application, 
+                the number of LWPs depends on the number of user-level threads.
+                 This is because when an LWP is blocked on an I/O operation, 
+                 then to invoke the other ULT the thread library needs to create and schedule another LWP. 
+                 Thus, in an I/O bound application, the number of LWP is equal to the number of the ULT.
+                  In the case of a CPU-bound application, it depends only o
+        </p>
+    </body>
+</html>
